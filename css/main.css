@@ -1,0 +1,146 @@
+/*---
+----- Main Navigation
+---*/
+
+a:hover{
+	text-decoration: none;
+}
+
+.main a{
+	display: block;
+	padding: 17px 0 17px 84px;
+	margin-bottom: 6px;
+	font: 16px bold 'Montserrat', Arial, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.main a:hover{
+	color: #e02222;
+}
+
+.home-ic{
+	background: url(../images/home-icon.png) 17px center no-repeat;
+}
+
+.home-ic:hover{
+	background: #fff url(../images/home-icon-hover.png) 17px center no-repeat;
+}
+
+.hotspots-ic{
+	background: url(../images/hotspots-icon.png) 17px center no-repeat;
+}
+
+.coffee-ic{
+	background: url(../images/matches-icon.png) 17px center no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+.col-xs-2, .discussion{
+	outline: 1px dashed gray;
+}
+
+.people .col-xs-2, .hotspots .col-xs-2, .discussions .col-xs-6, .discussions .col-xs-2, .discussions .col-xs-4{
+	margin: 0 1.4%;
+} 
+
+.page-content {
+	min-height: 911px;
+	margin-top: 0px;
+	padding: 0px;
+	background-color: #e5e9ec;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.red-band{
+	position: fixed;
+	width: 60px;
+	height: 100%;
+	float: left;
+	background-color: #e02222;
+	z-index: -1;
+}
+
+.logo-holder, .top-bar{
+	background: #0c0c0c;
+	height: 80px;
+}
+
+.top-bar{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+
+
+@media (min-width: 980px){
+	.main-navigation {
+		display: inline-block;
+		float: left;
+		position: fixed;
+		width: 270px;
+		padding-bottom: 105px;
+		background-color: #0f0f0f !important;
+		height: 100%;
+	}
+
+	.page-content{
+		margin-left: 270px;
+		min-height: 1006px;
+	}
+}
+
+.row-fluid [class*="span"]{
+	width: 100% ;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.page-content .people, .page-content .hotspots, .discussions{
+	padding-left: 15px !important;
+}
+
+.dashboard-heading{
+	padding-top: 110px;
+}
+
+.user-bar{
+	display: none;
+}
+
+.logo{
+	position: absolute;
+	left: 60px;
+}
+
+h2{
+	margin-left: 30px;
+}
+
+.person, .discussion{
+	margin-bottom: 30px !important;
+}
+
+.discussions .col-xs-6, .discussions .col-xs-4{
+	padding: 0;
+}
+
+.discussions{
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.main{
+	
+	z-index: 10;
+}
